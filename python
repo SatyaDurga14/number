@@ -1,0 +1,41 @@
+'''n=int(input())
+num=0
+while n:
+    r=n%10
+    num=(num*10)+r
+    n=n//10
+print(num)'''
+
+'''num=int(input())
+n1=num
+rev=0
+while num:
+    r=num%10
+    rev=(rev*10)+r
+    num=num//10
+if(n1==rev):
+    print("palindrone")
+else:
+    print("not palindrone")'''
+
+#lcm of a number
+
+a=int(input())
+b=int(input())
+mul=1
+i=2
+if a<b:
+    while i:
+        if a%i==0 and b%i==0:
+            mul=mul*i
+            a//=i
+            b//=i
+            print("mul=",mul,"a",a ,"b=",b)
+            print()
+        elif(b==i):
+            mul=mul*a*b
+            break
+        else:
+            i+=1
+        
+print(mul)
