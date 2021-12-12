@@ -1,0 +1,21 @@
+--->'chinni'
+'chinni'
+--->print("chinni")
+chinni
+--->print("chinni's friend")
+chinni's friend
+---->print('chinni "friend"')
+chinni "friend"
+--->print('chinni\s "friend"')
+chinni\s "friend"
+--->print('chinni\'s "friend"')
+chinni's "friend"
+--->'chinni'+'chinni'
+'chinnichinni'
+--->3*'chinni'
+'chinnichinnichinni'
+---->print('c:\docs\navin')  #\n take as new line
+c:\docs
+avin
+--->print(r'c:\docs\navin')  #place r before a string then it tells \n as a string not as a new line
+c:\docs\navin
